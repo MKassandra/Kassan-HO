@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  <meta name="viewport" content="width=1364">-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles.css">
 
 
+  <!-- BRB icon -->
+  <link rel="icon" href="brblogo.png" type="image/x-icon">
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
 
   <!-- Bootstrap 4 Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -16,42 +24,136 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  <title></title>
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+
+  <title>BRB</title>
+
 </head>
+<!--Header-->
 
 <body>
-  <div class="bg1 example-classname"> sssssssssss<br></div>
 
-  <div class="bg2 example-classname"> sssssssssss<br></div>
+  <!--
+dark
+-->
+  <section="header-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom h-color navbar-transparent ">
 
-  <div class="bg3 example-classname"> sssssssssss<br></div>
+      <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="bg4 example-classname"> sssssssssss<br></div>
+      <!--  <div class="collapse navbar-collapse ul-holder" id="navbarCustom">-->
+      <div class="collapse navbar-collapse ul-holder" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item active about-border ml-auto">
+                      <a class="nav-link about" href="#">About Us<span class="sr-only">(current)</span></a>
+                  </li> -->
+          <li class="nav-item product-border ml-auto">
+            <a class="nav-link product" href="index.html">Home</a>
+          </li>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+          <li class="nav-item dropdown about-border ml-auto">
+            <a class="nav-link about dropdown-toggle" href="about.html">
+              About Us</a>
+            <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              About</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="about.html#history-body-content">History</a>
+                              <a class="dropdown-item" href="about.html#who-body-content">Who we are</a>
+                              <a class="dropdown-item" href="about.html#meet-body-content">Meet Our Team</a>
+                            </div>-->
+          </li>
+          <li class="nav-item services-border ml-auto">
+            <a class="nav-link services" href="services.html">Services</a>
+          </li>
 
-  <script>
-    $.scrollify({
-      section: ".example-classname",
-      sectionName: "section-name",
-      interstitialSection: "",
-      easing: "easeOutExpo",
-      scrollSpeed: 1100,
-      offset: 0,
-      scrollbars: true,
-      standardScrollElements: "",
-      setHeights: true,
-      overflowScroll: true,
-      updateHash: true,
-      touchScroll: true,
-      before: function() {},
-      after: function() {},
-      afterResize: function() {},
-      afterRender: function() {}
-    });
-  </script>
+          <li class="nav-item partners-border ml-auto">
+            <a class="nav-link partners" href="loans.html">Loans</a>
+          </li>
+
+          <li class="nav-item letsTalk-border ml-auto">
+            <a class="nav-link partners" href="talk.html">Contact Us</a>
+          </li>
+          <!--
+        <li class="nav-item ml-auto btn-border">
+          <button type="button" class="btn btn-outline-primary log-btn">Login</button>
+        </li> -->
+        </ul>
+      </div>
+    </nav>
+    </section>
+
+    <!--Main Content-->
+    <section id="body-content">
+
+      <div class="home-body">
+        <!--<a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"></a>-->
+        <!-- Button trigger modal -->
+        <div class="row">
+          <div class="col-lg-9 col-md-8 col-sm-12">
+            <h1 class="h1-home-brb">BINANGONAN <br> RURAL BANK INC.</h1>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+              <img src="images/brb_logo.png" class="brblogo">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12">
+                        <img src="images/brb_logo.png" class="brblogo brblogo-modal">
+                      </div>
+                      <div class="col-lg-12 col-md-12 col-sm-12">
+                          <a class="nav-link product mx-auto" href="product.html">For digital products. Please go to this link.</a>
+                      </div>
+                    </div>
+
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!--<div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+
+            </div>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6 col-md-0 col-sm-0">
+
+          </div>
+          <div class="col-lg-6 col-md-0 col-sm-0">
+            <h1 class="h1-home-front">The First Philippine Rural Bank to launch its E-Money operations in the
+              Philippines</h1>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $(document).ready(function() {
+          $("#exampleModal").modal('show');
+        });
+      </script>
+
 </body>
 
 </html>
