@@ -89,8 +89,19 @@ strong {
 
 .cashmate {
   margin-top: 0.0rem;
-    height: 28rem;
+    height: auto;
     width: 28rem;
+}
+
+.cashmate1 {
+  margin-top: 0.0rem;
+  margin: 0 1rem;
+    height: auto;
+    width: 35rem;
+}
+
+.btn-hide{
+  visibility:hidden;
 }
 
 /*MEDIA-LOGO*/
@@ -2012,7 +2023,7 @@ padding-top: 17rem!important;
 #meet-body-content3 {
     padding: 4rem 0rem;
     color: #3a3a3b;
-    background-image: url("images/bg/meet2_new.jpg");
+    background-image: url("images/bg/ho_team1.jpg");
     /*background-image: url("images/meet2.png");*/
     background-size: cover!important;
     background-position: bottom left;
@@ -8510,7 +8521,7 @@ font-size: 1.3rem!important;
             } */
         }
 
-
+/*
         .slideanim {visibility:hidden;}
           .slide {
             animation-name: slide;
@@ -8539,7 +8550,7 @@ font-size: 1.3rem!important;
               -webkit-transform: translateY(0%);
             }
           }
-
+*/
 /*partner page*/
 #partner-body-content {
     padding: 0rem 1rem;
